@@ -22,7 +22,7 @@ With all your courses, workshops, and memberships in one place, you can sell fas
 
         <div className="col-12 col-md-6">
             <div className="hero-right">
-                <img src="https://demoapus1.com/skillup/wp-content/uploads/2022/04/side-2-768x731.png" alt="" className='w-100' />
+                <img src="https://assets.website-files.com/64a2bba3428de7ae0c1b5db5/64a405f2b38c92a6819dc840_Hero%20V2%20Image-p-1080.png" alt="" className='w-100' />
                {/* <img src="https://tf.insomniacafe.org/insocour/assets/img/icon/global.svg" alt="" className="icon1" /> */}
                {/* <img src="https://tf.insomniacafe.org/insocour/assets/img/all-img/hero-img2.png" alt="" className="icon2" /> */}
             </div>

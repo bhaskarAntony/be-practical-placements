@@ -68,7 +68,7 @@ function Register() {
           //   return;
           // }
           try {
-              axios.post('http://localhost:3200/api//register/college', formData)
+              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/register/college', formData)
               .then(response => {
                 setLoading(false)
                 
