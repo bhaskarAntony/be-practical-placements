@@ -46,6 +46,8 @@ function Register() {
     email: '',
     mobile: '',
     year: '',
+    aggr: '',
+    branch: '',
     course: 'mern' // Default value
   });
   const [loading, setLoading] = useState(false)
@@ -101,22 +103,22 @@ if(loading){
         <h1 className="fs-3 text-main">Fill Here</h1>
       <form onSubmit={submitHandler}>
         <div className="row">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-3">
             <div className="form-floating mt-2">
               <input type="text" className="form-control" id='name' placeholder='user name' required onChange={handleChange} />
               <label htmlFor="name">Student name</label>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-3">
             <div className="form-floating mt-2">
               <input type="email" className="form-control" id='email' placeholder='email' required onChange={handleChange} />
               <label htmlFor="email">Student email</label>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-3">
             <div className="form-floating mt-2">
-              <input type="text" className="form-control" id='phone' placeholder='phone' required onChange={handleChange} />
-              <label htmlFor="phone">Mobile number</label>
+              <input type="text" className="form-control" id='mobile' placeholder='phone' required onChange={handleChange} />
+              <label htmlFor="mobile">Mobile number</label>
             </div>
           </div>
           <div className="col-12 col-md-3">
@@ -125,7 +127,19 @@ if(loading){
               <label htmlFor="year">Year of passed out</label>
             </div>
           </div>
-          <div className="col-12 col-md-5">
+          <div className="col-12 col-md-3">
+            <div className="form-floating mt-2">
+              <input type="text" className="form-control" id='aggr' placeholder='aggr' required onChange={handleChange} />
+              <label htmlFor="year">Total aggregation</label>
+            </div>
+          </div>
+          <div className="col-12 col-md-3">
+            <div className="form-floating mt-2">
+              <input type="text" className="form-control" id='branch' placeholder='branch' required onChange={handleChange} />
+              <label htmlFor="branch">Branch</label>
+            </div>
+          </div>
+          <div className="col-12 col-md-3">
             <div className="form-floating">
               <select name="courses" id="course" className="form-select mt-2" onChange={handleChange} value={formData.course}>
                 <option value="mern">Mern fullstack</option>
@@ -138,7 +152,7 @@ if(loading){
               <label htmlFor="course" className='bg-transparent'>Select Course</label>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-3">
             <button type="submit" className="btn-main p-3 rounded-2 mt-2 w-100">Register</button>
           </div>
         </div>
