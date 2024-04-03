@@ -130,7 +130,7 @@ if(loading){
           <div className="col-12 col-md-3">
             <div className="form-floating mt-2">
               <input type="text" className="form-control" id='aggr' placeholder='aggr' required onChange={handleChange} />
-              <label htmlFor="year">Total aggregation</label>
+              <label htmlFor="year">Total aggregate</label>
             </div>
           </div>
           <div className="col-12 col-md-3">
