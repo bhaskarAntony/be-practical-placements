@@ -32,7 +32,7 @@ const SpecialMessageModal = ({ show, onClose }) => {
               <p className='fs-4 text-white mt-4'>
              Success
               </p>
-              <a href="https://forms.gle/mULUELFWEEWbHvbb6" target="_blank" className='btn btn-main text-white p-3 w-100 d-block rounded-pill'>Attend Test</a>
+              <a href="https://forms.gle/Z9bzQam3vedgj6Zd8" target="_blank" className='btn btn-main text-white p-3 w-100 d-block rounded-pill'>Attend Test</a>
                </div>
             </div>
           </div>
@@ -153,7 +153,7 @@ if(loading){
             </div>
           </div>
           <div className="col-12 col-md-3">
-            <button type="submit" className="btn-main p-3 rounded-2 mt-2 w-100">Register</button>
+            <button type="submit" className="btn-main p-3 rounded-2 mt-2 w-100">Register</button>   
           </div>
         </div>
       </form>
