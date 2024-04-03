@@ -147,7 +147,7 @@ if(loading){
                 <option value="Python">Python fullstack</option>
                 <option value="Java">Java fullstack</option>
                 <option value="Datascience">Datascience</option>
-                <option value="CloudOps">CloudOps</option>
+                <option value="Cloud">Cloud Computing</option>
               </select>
               <label htmlFor="course" className='bg-transparent'>Select Course</label>
             </div>
